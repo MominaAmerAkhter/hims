@@ -1,0 +1,42 @@
+POST http://localhost:4000/patient/new Authorization bearer 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiUmVjZXB0aW9uaXN0IiwiaWF0IjoxNzA5MzI0NzM3fQ.Wby6aqfu0HstdakO7oA2CWPLAyM3W_QE_v3R7S3C6k8
+{
+        "firstName": "John",  
+        "lastName": "Doe",
+        "phoneNumber": "03214425089",
+        "gender": "Female",
+        "age":"25",
+        "houseAddress": "House no 317"
+}
+
+POST http://localhost:4000/user/new Authorization bearer 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3MDkyOTUxNjUsImV4cCI6MTcwOTI5NTE4MH0.FpWwprKsYFQSDfel-Axf-w-iyASYN2cXCdR3HN9TzhE
+{
+        "userName": "momina_amer",  
+        "password": "testinguser",
+        "userRole": "Reception",
+        "firstName": "Momina",
+        "lastName": "Amer",
+        "phoneNumber": "03214425089"
+}
+
+POST http://localhost:4000/user/login 
+{
+        "userName": "amer_akhter",  
+        "password": "35151666"
+}
+
+POST http://localhost:4000/shift/new Authorization bearer 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3MDkyOTUxNjUsImV4cCI6MTcwOTI5NTE4MH0.FpWwprKsYFQSDfel-Axf-w-iyASYN2cXCdR3HN9TzhE
+{
+        "doctorfName": "Ramsha",  
+        "doctorlName": "Naeem"
+}
+
+POST http://localhost:4000/shift/end Authorization bearer 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3MDkyOTUxNjUsImV4cCI6MTcwOTI5NTE4MH0.FpWwprKsYFQSDfel-Axf-w-iyASYN2cXCdR3HN9TzhE
+{
+        "shiftId": "5620"
+}
+
+GET http://localhost:4000/medicine/all
