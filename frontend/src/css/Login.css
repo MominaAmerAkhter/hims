@@ -1,0 +1,75 @@
+.body{
+    background-image: url("../../login-page.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    font-family: "Montserrat";
+    height: 100%;
+    width: 100%;
+   
+}
+
+.form{
+    height: 100vh;
+    background-color: rgb(60, 58, 58);
+    opacity: 90%;
+    display: grid;
+    place-content: center;
+    float: right;
+    /* box-shadow: 0 4px 8px 0 rgb(165, 165, 165); */
+    /* box-shadow: inset; */
+    outline: none;
+    width: 70vh;   
+    padding: 0%;
+    color: white;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.individual-text-field{
+    width: 60vh;
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.title {
+    text-align: center;
+    font-style:normal;
+    font-weight: bolder;
+    padding: 10%;
+}
+
+.labels{
+    text-align: left;
+    font-weight: 600;
+}
+
+.input-field{
+    padding: 2%;
+    width: 90%;
+}
+
+.submit-button{
+    /* display: flex; */
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+    margin-top: 10% !important;
+    background-color: black !important;
+    color: white !important;
+    width: 20vh;
+}
+
+.submit-button:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+
+
+
+
+

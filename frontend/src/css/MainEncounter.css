@@ -1,0 +1,180 @@
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    width: 50%;
+}
+
+.encounter-history-div{
+    height: 80%;
+    overflow-y: scroll;
+    font-size: small;
+    overflow-x: hidden;
+    width: fit-content;
+    padding-right: 2%;
+}
+
+.encounter-history-table thead th{
+    position: sticky;
+    top: 0;
+    font-size: medium;
+}
+
+.vitals-history th{
+    font-size: small !important;
+    font-weight: normal !important;
+    position: inherit !important;
+}
+
+.heading-sign{
+    font-weight: bolder;
+    width: max-content;
+    box-shadow: inset;
+    margin: auto;
+}
+
+.scrollable-pres{
+    height: 80%;
+    overflow-y: scroll;
+    padding-left: 2%;
+    padding-right: 2%;
+    /* width: 100%; */
+    padding-bottom: 2%;
+}
+
+.text-field-prescription{
+    padding: 2%;
+}
+
+.pres-form-fields{
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center; /* Align items vertically */
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.notes-div{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/* .notes-field{
+    width: 100%;
+} */
+
+.no-meds-alert{
+    text-align: center;
+    color: red;
+    padding-bottom: 3%;
+    font-style: italic;
+}
+
+.medication-button{
+    display: block;
+    width: 100% !important;
+    place-content: center !important;
+    background-color: black !important;
+}
+
+.medication-button:hover{
+    background-color: white !important;
+    color: black !important;
+
+}
+
+.medication-button:disabled{
+    background-color: grey !important;
+    color: black !important;
+
+}
+
+.no-meds-row{
+    color: red;
+    font-weight: bold;
+    text-align: right;
+    outline: auto;
+}
+
+.select-medicine-table-div{
+    /* height: 50vh; */
+    overflow-y: scroll;
+}
+
+.select-med-table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 90%; */
+}
+
+.save-presc-button{
+    display: block;
+    width: 100% !important;
+    place-content: center !important;
+    background-color: black !important;
+}
+
+.save-presc-button:hover{
+    background-color: white !important;
+    color: black !important;
+
+}
+
+.vl{
+    border-left: 1px solid black;
+    /* height: 100%; */
+    position: absolute;
+    left: 50%;
+    /* margin-left: -2vh; */
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.medicine-column{
+    overflow-y: scroll !important;
+    height: 10% !important;
+}
+
+.pagination {
+    /* float: right; */
+    margin-left: 5%;
+}
+
+.patient-info {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(171, 170, 170, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: small;
+    color: black;
+    border-style: double;
+    border-width: 1vh
+}
+
+.patient-info th{
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    
+}
+
+.patient-info td{
+    width:30%;
+    font-weight: bolder;
+    text-align: right;
+}
+
+
+.left-aligned{
+    text-align: left;
+}
+
+.right-aligned {
+    float: right;
+    text-align: right;
+}

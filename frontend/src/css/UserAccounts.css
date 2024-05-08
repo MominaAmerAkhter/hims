@@ -1,0 +1,44 @@
+.user-account-table{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.search-bar-div{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    
+}
+
+.search-bar{
+    width: 100%;
+    height: 6vh;
+    border-radius: 15px;
+    border: 1px gray solid;
+    padding-left: 2%;
+
+}
+
+.button-create-user{
+    float: right;
+    margin-right: 5% !important;
+    width: max-content;
+    background-color: black !important;
+    color: white !important;
+    margin-bottom: 1% !important;
+}
+
+.button-create-user:hover{
+background-color: white !important;
+color: black !important;
+}
+
+.select-user-role{
+    display: grid;
+    place-content: center;
+}
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+    padding-bottom: 1%;
+  }

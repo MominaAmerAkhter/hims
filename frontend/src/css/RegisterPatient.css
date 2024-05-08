@@ -1,0 +1,41 @@
+
+.patient-registration-form{
+    display: grid !important;
+    place-content: center !important;
+}
+
+.full-name-field{ 
+    /* this is to put both first name and last name in the same row */
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+
+}
+
+.text-field{
+    /* This is to put the heading of text field above the text field instead of rowwise */
+    display: flex;
+    flex-direction: column;
+}
+
+.gender-age-field{
+    display: flex;
+    flex-direction: row;
+    width: max-content !important;
+}
+
+.register-button{
+    display: grid !important;
+    place-content: center !important;
+    padding-top: 2%;
+}
+
+.register-button:hover{
+    background-color: white !important;
+    color: black !important;
+
+}
+
+.modal{
+    font-family: "Montserrat";
+}

@@ -1,0 +1,73 @@
+
+.select-supplier-table-div{
+    height: 50vh;
+    overflow-y: scroll;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.supplier-table-heading{
+    text-align: center ;
+}
+
+.supplier-info{
+    font-weight: bolder;
+}
+
+.invoice-whole-body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.invoice-table-div{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black !important;
+    color: white !important;
+}
+
+.add-prod-button{
+    margin-right: 5% !important;
+    font-size: large !important;
+    float: right !important;
+    color: blue !important;
+}
+
+.grand-total-bill{
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.table-css th{
+    background-color: rgb(130, 129, 129) !important; 
+    color: white !important;
+}
+
+.bill-table-css th{
+    background-color: rgb(47, 47, 47) !important;
+    color: white !important;
+}
+
+.payment-button{
+    background-color: black !important;
+    color: white !important;
+    float: right;
+    margin-right: 5%;
+    width: 50vh;
+}
+
+
+.payment-button:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+/* for sale invoice */
+.patient-information{
+    font-weight: bolder;
+    margin-left: 5%;
+}

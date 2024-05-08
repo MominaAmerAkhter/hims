@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.navbar-admin {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.container-admin {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+.nav-elements-admin {
+    display: flex;
+    margin-left: auto !important; /* Push navigation links to the right */
+}
+
+.nav-link-admin {
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav-link-admin:hover {
+    text-decoration: underline;
+  }
+
+.brand {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin-left: 0%;
+}

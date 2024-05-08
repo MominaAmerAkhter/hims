@@ -1,0 +1,27 @@
+.button-create-token{
+    float: right;
+    margin-right: 5% !important;
+    width: max-content;
+    background-color: black !important;
+    color: white !important;
+    margin-bottom: 1% !important;
+}
+
+.button-create-token:hover{
+background-color: white !important;
+color: black !important;
+}
+
+.no-token-msg-box{
+    border: 2px dashed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+.token-patient-table{
+    margin: auto ;
+}

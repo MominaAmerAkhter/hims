@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: white !important;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-elements {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    margin-right: 5%;
+    margin-left: 30%;
+}
+
+.brand {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin-left: 0%;
+}

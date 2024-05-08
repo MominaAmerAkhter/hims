@@ -1,0 +1,46 @@
+body{
+
+    font-family: "Montserrat";
+   
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.no-supplier-alert{
+    color: red !important;
+    font-style: italic;
+    text-align: center !important;
+    padding-bottom: 3%;
+}
+
+.supplier-medicine-selection{
+    padding-bottom: 2%;
+}
+
+.save-button{
+    text-align: center;
+    width: 25vh !important;
+    background-color: black !important;
+    color: white !important;
+    margin: 5% !important;
+}
+
+.save-button:hover{
+    width: max-content;
+    background-color: white !important;
+    color: black !important;
+}
+
+.radio-buttons{
+    display: flex !important;
+    flex-direction: row !important;
+}
